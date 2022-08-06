@@ -1,0 +1,159 @@
+html {
+  font-family: "Roboto";
+}
+
+.heading {
+  color: #109e97;
+  font-family: "Lobster";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 49px;
+  line-height: 61px;
+  text-align: center;
+}
+
+hr {
+  border: 1px solid #000000;
+}
+.davidh2 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 27px;
+}
+
+.price {
+  font-family: "Verdana";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 29px;
+}
+
+.noprice {
+  font-family: "Verdana";
+  text-decoration: line-through;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  color: #ff0000;
+}
+
+.maintext {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: right;
+  letter-spacing: 2px;
+  /* background-color: black; */
+  color: #ffffff;
+}
+
+h1 {
+  text-transform: capitalize;
+}
+
+div > p:first-child {
+  text-transform: uppercase;
+  text-align: right;
+  color: white;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 21px;
+}
+.mezmun {
+  background-color: black;
+  padding: 20px 0px 20px 40px;
+  /*     position: absolute;
+    width: 1822px;
+height: 256px;
+left: 8px;
+top: 552px; */
+}
+
+.heading_xususiyet {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+tr {
+  height: 40px;
+}
+
+td {
+  font-size: 16px;
+  line-height: 32px;
+}
+
+th {
+  font-size: 15px;
+  line-height: 32px;
+}
+
+section > a:first-child {
+  text-decoration: none;
+}
+
+.parent {
+  display: flex;
+  justify-content: space-between;
+}
+
+.back_image2 {
+  width: 320px;
+  height: 480px;
+  background-size: cover;
+
+  background-image: url(/bse-bookshop-project-KananFarmanli/project/Inkognito.png);
+}
+
+.back_image1 {
+  width: 320px;
+  height: 480px;
+  background-size: cover;
+  background-image: url(/bse-bookshop-project-KananFarmanli/project/Inkognito.png);
+}
+.middle {
+  text-align: center;
+}
+
+.middle p > input {
+  width: 120px;
+  height: 50px;
+  color: white;
+  background-color: #109e97;
+  border: 2px solid #767676;
+}
+.middle h4 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+footer {
+  padding: 20px 0px;
+  background-color: #109e97;
+  color: white;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: blue;
+}
+
+ul li {
+  list-style: none;
+}
