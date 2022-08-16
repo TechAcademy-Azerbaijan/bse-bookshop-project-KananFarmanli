@@ -116,6 +116,16 @@ nav ul li a {
   height: 44px;
 }
 
+button > a {
+  text-decoration: none;
+  color: #ffff;
+font-family: 'Roboto';
+font-weight: 400;
+font-size: 15px;
+line-height: 23px;
+text-align: center;
+}
+
 /* *oz alemimde responsive elemishem */
 .selection img {
   width: 65%;  /*  *ekrani balacadanda wekil div'den kenar cixmasin deye bele etdim */
