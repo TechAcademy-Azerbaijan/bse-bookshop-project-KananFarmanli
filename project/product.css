@@ -1,0 +1,403 @@
+/* The rows in the table must be separated by a border (If you can't do it completely, it's not a problem, we will touch on this issue again on the 5th day)
+Icons should be added to social networks (Font awesome)
+Social network icons should remain fixed on the right side of the page, the icons should not change position as the page moves
+3.day questions */
+
+html {
+  font-family: "Roboto";
+}
+/* 
+body {
+  display: flexbox;
+  
+} */
+
+select#lang {
+  font-family: "Roboto";
+}
+input {
+  font-family: "Roboto";
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+
+
+header {
+  border-bottom: 2px solid black;
+  background-color: white;
+  height: 132px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+  color: #109e97;
+  font-family: "Lobster";
+  font-weight: 400;
+  font-size: 49px;
+  line-height: 61px;
+  
+}
+
+
+nav {
+  display: flex;
+  background-color: #109e97;
+  border-bottom: 1px solid black;
+  border-top: 1px solid black;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+nav > ul {
+  width: 70%;
+  
+  display: flex;
+  justify-content: space-between;
+}
+
+nav ul li {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 130px;
+}
+
+nav ul li a {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: white;
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+  cursor: pointer;
+  width: 100%;
+  text-align: center;
+  padding: 20px 0;
+  min-width: 130px;
+}
+
+
+
+nav ul li a:hover:not(nav ul li:nth-child(4) a) {
+  background-color:white;
+  color:#109e97;
+  
+  
+}  
+
+nav ul li a:focus:not(nav ul li:nth-child(4) a) {
+  background-color:
+  #0E524E;
+  color:white;
+  
+}  
+
+nav ul li:nth-child(4){
+  
+  background-color:
+  #0E524E;
+ 
+  
+}    
+
+nav ul li:nth-child(4) a{
+
+ cursor:default;
+  
+}    
+/* !--------------------------------wekil ve sagindaki mezmun----------------------------------------- */
+
+
+.first_mother {
+  height: 450px;  
+  width: 70%;
+  margin: auto;
+  display:flex;
+  justify-content: center;
+  align-items:flex-start;
+  text-align:right;
+  gap: 60px;
+  
+}  
+
+.first_mother img {
+  height: 100%;
+  width: auto;
+  flex-grow: 1;
+}  
+
+.child {
+  flex-grow: 4;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}  
+
+
+.first h2 {
+  font-size: 26px;
+  line-height: 26px;
+  margin-bottom: 1rem;
+  text-align: right;
+  
+}  
+
+
+.price {
+  color: #008000;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 25px;
+}    
+
+.noprice {
+  
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  color: #ff0000;
+}    
+
+.second {
+     height: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; 
+  align-items:end
+}
+
+
+.maintext {
+  font-family: "Roboto";
+  font-size: 18px;
+  line-height: 18px;
+  text-align: right;
+  letter-spacing: 2px;
+  /*  margin-bottom: 18px;  */
+  color: black;
+  overflow-y: scroll;
+  
+  
+  
+}  
+
+h1 {
+  text-transform: capitalize;
+}  
+
+.second p:first-child {
+  text-transform: uppercase;
+  text-align: right;
+  color: black;
+  font-family: "Roboto";
+  font-size: 20px;
+  line-height: 20px;
+  /*  margin-bottom: 15px;  */
+} 
+
+
+ 
+.knopka {
+
+  background-color: #109e97;
+  color: white;
+border: 1px solid #109E97;
+border-radius: 4px;
+  width: 149px;
+  height: 48px;
+  font-size: 16px;
+line-height: 23px;
+} 
+
+/* !-------------------------table-------------------------------------- */
+
+
+.heading_xususiyet {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 20px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 20px;
+}
+
+
+table {
+  width: 70%;
+  margin : auto;
+  margin-bottom: 130px;
+}
+tr {
+  height: 40px;
+  border-bottom: 1px solid  #808080;
+  border-top: 1px solid  #808080;
+}
+
+td {
+  font-size: 16px;
+  line-height: 32px;
+}
+
+th {
+  font-size: 15px;
+  line-height: 32px;
+}
+ /* !------------------werh yan wekil ve footer--------------------------------------------- */
+
+
+
+
+
+ .parent {
+  width:70%;
+  margin: 0 auto;
+  margin-bottom: 132px;
+  gap:10px;
+  display:flex; 
+  justify-content: space-between;
+  align-items:center;
+  opacity: 0.5;
+  transition: ease 500ms;
+ }
+ 
+.parent:hover {
+  transition: ease 500ms;
+  opacity:1;
+}
+
+ .back_image2 {
+   width: 300px;
+   height: 450px;
+   background-size: cover;
+   background-image: url(Inkognito.png);
+ }
+ 
+ .back_image1 {
+  
+   width: 300px;
+   height: 450px;
+ 
+   background-size: cover;
+   background-image: url(Inkognito.png);
+ }
+ .middle {
+   text-align: center;
+  
+ }
+ 
+ .middle p > input {
+   width: 120px;
+   height: 50px;
+   color: white;
+   background-color: #109e97;
+   border: 2px solid #767676;
+ }
+ .middle h4 {
+   font-family: "Roboto";
+   font-style: normal;
+   font-weight: 400;
+   font-size: 24px;
+   line-height: 28px;
+   text-align: center;
+   text-transform: uppercase;
+ }
+
+ footer {
+   display: flex;
+   align-items:center;
+   justify-content: center;
+   height: 100px;
+   background-color: #109e97;
+   border-top: 2px solid black;
+   color: white;
+   text-align: center;
+ }
+
+
+
+/* !----------------bar----------------- */
+
+
+
+section > a:first-child {
+  text-decoration: none;
+
+}
+
+
+.bar ul li {
+  list-style: none;
+  background-color:#109e97;
+  border-radius: 50%;
+  width: 50px;
+height: 50px;
+  position:relative;
+  display: flex ;
+  justify-content: center;
+  align-items:center;
+  
+
+}
+
+.bar {
+  text-align: center;
+  position: fixed;
+  top: 200px;
+  right:25px;
+}
+
+.fa-brands {
+  font-size: 37px;
+ color: white;
+}
+
+.fa-youtube {
+  font-size: 32px;
+}
+
+
+
+.last_li  {
+  font-size: 35px;
+  background-color:#767676!important;
+} 
+
+
+.last_li a {
+  text-decoration: none;
+  color:white;
+}
+
+.bar a {
+ transition: ease 100ms;
+ }
+ 
+ 
+ .bar a:hover:not(.a_last){
+     transform: scale(1.1);
+ }
+ 
+  .a_last:hover{    
+     transform: scale(1.1) rotate(90deg);
+  }
+
+#name:focus, #date:focus {
+  background-color:yellow;
+}
+
+#area {
+  background-color:transparent;
+}
+
+#box:checked{
+  width: 20px;
+  height: 20px;
+}
+
