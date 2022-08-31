@@ -1,0 +1,97 @@
+@import "./colors";
+@import "./media";
+
+//yan yana class btn cart iwlemir
+
+//display flex vermek olmur
+//flex grow yigiwdirmag olmur
+
+ .form-select{
+     color:rgba(0, 0,0, 0.6);
+
+}
+
+.color1 {
+    background:$info1;
+    height: 4rem;
+    @include flex(center,center);
+    color:white;
+}
+
+.col-4 {
+    span:first-child {
+color:$success1
+    }
+    span:last-child {
+color:red;
+font-size:10px;
+    }
+}
+
+.dropdown-menu {
+  left: 10px;
+  background-color: $info1;
+  a {
+    color: black;
+  }
+}
+.navbar {
+  background-color: $info1;
+
+  a {
+    color: white;
+  }
+        li {
+            .dropdown-menu[data-bs-popper] {
+            left: -50px;
+            }
+        }
+}
+
+.btn {
+  background-color: $info1;
+  color: white;
+}
+
+.nav-nav {
+  @include flex(center);
+  .navbar-collapse {
+    flex-grow: 0;
+  }
+}
+
+.row {
+   display:flex;
+   flex-direction:column;
+   align-items:center;
+   justify-content: center;
+   text-align: center;
+}
+
+.alert1 {
+  @include flex(center, center);
+  margin-bottom: $marg-b;
+  margin-top: $marg-t;
+
+  background-color: $alert1;
+  color: $alertFont;
+  height: 3rem;
+}
+
+.mb2 {
+  margin-bottom: 0.5rem;
+}
+.mb3 {
+  margin-bottom: 1rem;
+}
+.mb4 {
+  margin-bottom: 2rem;
+}
+.mb5 {
+  margin-bottom: 3rem;
+}
+.mt5 {
+    margin-top:4rem;
+}
+.pd {
+}

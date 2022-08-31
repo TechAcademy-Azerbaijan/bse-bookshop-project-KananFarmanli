@@ -1,0 +1,12 @@
+
+$marg-b:2rem;
+$marg-t:2rem;
+
+
+
+@mixin flex($justify:none, $align:none) {
+    display: flex;
+    justify-content: $justify;
+    align-items:$align;
+}
+

@@ -1,1 +1,91 @@
-/*# sourceMappingURL=product.css.map */
+.form-select {
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.color1 {
+  background: #17A2B8;
+  height: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.col-4 span:first-child {
+  color: #28A745;
+}
+.col-4 span:last-child {
+  color: red;
+  font-size: 10px;
+}
+
+.dropdown-menu {
+  left: 10px;
+  background-color: #17A2B8;
+}
+.dropdown-menu a {
+  color: black;
+}
+
+.navbar {
+  background-color: #17A2B8;
+}
+.navbar a {
+  color: white;
+}
+.navbar li .dropdown-menu[data-bs-popper] {
+  left: -50px;
+}
+
+.btn {
+  background-color: #17A2B8;
+  color: white;
+}
+
+.nav-nav {
+  display: flex;
+  justify-content: center;
+  align-items: none;
+}
+.nav-nav .navbar-collapse {
+  flex-grow: 0;
+}
+
+.row {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.alert1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  background-color: #FFEEBA;
+  color: #856404;
+  height: 3rem;
+}
+
+.mb2 {
+  margin-bottom: 0.5rem;
+}
+
+.mb3 {
+  margin-bottom: 1rem;
+}
+
+.mb4 {
+  margin-bottom: 2rem;
+}
+
+.mb5 {
+  margin-bottom: 3rem;
+}
+
+.mt5 {
+  margin-top: 4rem;
+}/*# sourceMappingURL=product.css.map */
